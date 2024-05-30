@@ -8,6 +8,10 @@ body {
 hr {
 	margin: 0px;
 }
+#collapsemenu button {
+	margin-top: 25px;
+	margin-right: 25px;
+}
 /**Header**/
 #header-nav {
 	background-color: #8FBC8F;
@@ -39,7 +43,7 @@ hr {
 	color: #000000;
 }
 #collapsable-nav {
-	margin-top: 50px;
+	margin-top: 30px;
 	margin-bottom: 25px;
 	float: left;
 	width: 100%;
