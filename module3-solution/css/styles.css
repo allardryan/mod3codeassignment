@@ -1,3 +1,4 @@
+/**Global**/
 body {
 	background-color: #FFFAF0;
 	font-family: "Freeman", sans-serif;
@@ -6,9 +7,6 @@ body {
 }
 hr {
 	margin: 0px;
-}
-#nav-list span {
-
 }
 /**Header**/
 #header-nav {
@@ -61,6 +59,7 @@ hr {
 }
 #main-content section {
 	margin: auto;
+	padding-bottom: 25px;
 }
 #main-content .menu-item-tile {
 	width: 100%;
@@ -78,3 +77,10 @@ h2 {
 
 /**End Main**/
 
+/**Media Queries**/
+@media (max-width: 767px) {
+#main-content section {
+	margin-right: 50px;
+	margin-left: 50px;
+}
+}
