@@ -4,6 +4,12 @@ body {
 	font-weight: 400;
     font-style: normal;
 }
+hr {
+	margin: 0px;
+}
+#nav-list span {
+
+}
 /**Header**/
 #header-nav {
 	background-color: #8FBC8F;
@@ -18,28 +24,35 @@ body {
 .navbar-brand h1 {
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #222;
-	margin-top: 0;
-	margin-bottom: 0;
-	line-height: .75;
-}
-#header-nav .container{
-	margin: 0px;
-	padding-left: 50px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 1;
 }
 #nav-list {
-	margin-top: 50px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 #nav-list a {
-	color: #123456;
+	color: #F8F8FF;
 	text-align: center;
 }
 #nav-list a:hover {
 	background: #E7E7E7;
+	color: #000000;
 }
-#nav-list a span {
-	font-size: 1.8em;
+#collapsable-nav {
+	margin-top: 50px;
+	margin-bottom: 25px;
+	float: left;
+	width: 100%;
+	background-color: #696969;
+	font-size: 1.5em;
+	clear: both;
 }
-
+#collapsemenu {
+	margin-left: 0px;
+	margin-right: 0px;
+}
 /**End Header**/
 
 /**Main**/
@@ -65,4 +78,3 @@ h2 {
 
 /**End Main**/
 
-/**Media Query and Responsive Design**/
