@@ -8,11 +8,11 @@ body {
 hr {
 	margin: 0px;
 }
+/**Start Header**/
 #collapsemenu button {
 	margin-top: 25px;
 	margin-right: 25px;
 }
-/**Header**/
 #header-nav {
 	background-color: #8FBC8F;
 	border-radius: 0;
@@ -29,6 +29,7 @@ hr {
 	margin-top: 0px;
 	margin-bottom: 0px;
 	line-height: 1;
+	padding-left: 15px;
 }
 #nav-list {
 	margin-top: 0px;
@@ -57,34 +58,46 @@ hr {
 }
 /**End Header**/
 
-/**Main**/
+/**Start Main**/
 #main-content {
 	width: 100%;
-}
-#main-content section {
-	margin: auto;
-	padding-bottom: 25px;
+	padding: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
 }
 #main-content .menu-item-tile {
-	width: 100%;
-	position: relative;
 	font-size: 15px;
-	background-color: #DCDCDC;
-	overflow: hidden;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 #main-content h1 {
 	padding-bottom: 20px;
 }
-h2 {
-	text-align: center;
+.row{
+	width:100%;
+	margin: 0px;
 }
-
+h3 {
+	padding: 10px;
+}
+#main-content #menu-tiles
+{
+	position: relative;
+	padding: 0px;
+	margin-bottom: 30px;
+}
+#menubox {
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 15px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #DCDCDC;
+	overflow: hidden;
+}
+#main-nav {
+	color: #B22222;
+	font-size: 15px;
+	padding-top: 30px;
+}
 /**End Main**/
-
-/**Media Queries**/
-@media (max-width: 767px) {
-#main-content section {
-	margin-right: 50px;
-	margin-left: 50px;
-}
-}
